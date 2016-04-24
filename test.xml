@@ -1,57 +1,45 @@
-
-
-
 <?xml version="1.0" encoding="utf-8"?>
 <Data>
-<Configuration>
-<SiteCollectionUrl>url</SiteCollectionUrl>
-<DefaultSiteTemplate>template</DefaultSiteTemplate>
-<RootWeb>
-<Url>rootWebPrefix</Url>
-<Name>rootWebName</Name>
-<SiteColumns>
-</SiteColumns>
-<ContentTypes>
-</ContentTypes>
-<Lists>
-</Lists>
-</RootWeb>
-</Configuration>
-</Data>    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <SiteCollectionUrl>url</SiteCollectionUrl>
+    <DefaultSiteTemplate>STS#0</DefaultSiteTemplate>
+    <RootWeb>
+        <Url></Url>
+        <Name></Name>
+        <SiteColumns>
+            <Field Group="group" Type="DateTime" DisplayName="name" Required="False" StaticName="name" Name="name" />
+            <Field Group="group" Type="Text" DisplayName="name" Required="False" StaticName="name" Name="name" />
+        </SiteColumns>
+        <CTDefs>
+        <CTDef>
+            <ParentCT>parentname</ParentCT>
+            <Name>name</Name>
+            <Group>group</Group>
+            <Description>description</Description>
+            <SiteColumnLinks>
+            </SiteColumnLinks>					
+        </CTDef>
+        <CTDef>
+            <ParentCT>parentname</ParentCT>
+            <Name>name</Name>
+            <Group>group</Group>
+            <Description>description</Description>
+            <SiteColumnLinks>
+            <Link>name</Link>
+            </SiteColumnLinks>					
+        </CTDef>
+        </CTDefs>
+        <Lists>
+            <List>
+                <Name>name</Name>
+                <ListTemplate>100</ListTemplate>
+                <Fields></Fields>
+                <CTS></CTS>
+                <Items>
+                    <Item>
+                        <Prop Name="Title" Value="Value" />
+                    </Item>
+                </Items>
+            </List>
+        </Lists>
+    </RootWeb>
+</Data>

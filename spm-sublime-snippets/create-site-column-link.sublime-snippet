@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<Link>${name}</Link>]]></content>
+    <tabTrigger>Create site column link (in ct definition)</tabTrigger>
+    <scope></scope>
+</snippet>

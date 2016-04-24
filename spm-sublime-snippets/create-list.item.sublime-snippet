@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[<Item>
+    <Prop Name="${Title}" Value="${Value}" />
+</Item>]]></content>
+    <tabTrigger>Create list item</tabTrigger>
+    <scope></scope>
+</snippet>

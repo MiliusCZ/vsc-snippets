@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<List>
+    <Name>${name}</Name>
+    <ListTemplate>${id:100}</ListTemplate>
+    <Fields>
+    </Fields>
+    <CTS>
+    </CTS>
+    <Items>
+    </Items>
+</List>]]></content>
+    <tabTrigger>Create list</tabTrigger>
+    <scope></scope>
+</snippet>

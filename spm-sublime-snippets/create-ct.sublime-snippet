@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<CT>${name}</CT>]]></content>
+    <tabTrigger>Create content type (in list section)</tabTrigger>
+    <scope></scope>
+</snippet>

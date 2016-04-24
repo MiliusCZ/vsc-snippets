@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<Field Group="${group}" Type="Note" DisplayName="${name}" Required="False" StaticName="${name}" Name="${name}" />]]></content>
+    <tabTrigger>Create multiline text site column</tabTrigger>
+    <scope></scope>
+</snippet>

@@ -1,0 +1,62 @@
+{
+	"Create basic configuration xml structure": {
+		"prefix": "Create basic configuration xml structure",
+		"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<Data>\r\n    <SiteCollectionUrl>${url}</SiteCollectionUrl>\r\n    <DefaultSiteTemplate>STS#0</DefaultSiteTemplate>\r\n    <RootWeb>\r\n        <Url></Url>\r\n        <Name></Name>\r\n        <SiteColumns>\r\n        </SiteColumns>\r\n        <CTDefs>\r\n        </CTDefs>\r\n        <Lists>\r\n        </Lists>\r\n    </RootWeb>\r\n</Data>",
+		"description": "",
+		"scope": ""
+	},
+	"Create content type (in list section)": {
+		"prefix": "Create content type (in list section)",
+		"body": "<CT>${name}</CT>",
+		"description": "",
+		"scope": ""
+	},
+	"Create content type definition (in rootweb section)": {
+		"prefix": "Create content type definition (in rootweb section)",
+		"body": "<CTDef>\r\n    <ParentCT>${parentname}</ParentCT>\r\n    <Name>${name}</Name>\r\n    <Group>${group}</Group>\r\n    <Description>${description}</Description>\r\n    <SiteColumnLinks>\r\n    </SiteColumnLinks>\t\t\t\t\t\r\n</CTDef>",
+		"description": "",
+		"scope": ""
+	},
+	"Create list item": {
+		"prefix": "Create list item",
+		"body": "<Item>\r\n    <Prop Name=\"${Title}\" Value=\"${Value}\" />\r\n</Item>",
+		"description": "",
+		"scope": ""
+	},
+	"Create list": {
+		"prefix": "Create list",
+		"body": "<List>\r\n    <Name>${name}</Name>\r\n    <ListTemplate>${id:100}</ListTemplate>\r\n    <Fields>\r\n    </Fields>\r\n    <CTS>\r\n    </CTS>\r\n    <Items>\r\n    </Items>\r\n</List>",
+		"description": "",
+		"scope": ""
+	},
+	"Create datetime site column": {
+		"prefix": "Create datetime site column",
+		"body": "<Field Group=\"${group}\" Type=\"DateTime\" DisplayName=\"${name}\" Required=\"False\" StaticName=\"${name}\" Name=\"${name}\" />",
+		"description": "",
+		"scope": ""
+	},
+	"Create site column link (in ct definition)": {
+		"prefix": "Create site column link (in ct definition)",
+		"body": "<Link>${name}</Link>",
+		"description": "",
+		"scope": ""
+	},
+	"Create lookup column - lookup column can be only added directly to list, never to site columns": {
+		"prefix": "Create lookup column - lookup column can be only added directly to list, never to site columns",
+		"body": "<Field Group=\"${group}\" Type=\"Lookup\" Name=\"${name}\" List=\"${list}\" Mult=\"False\" Overwrite=\"True\" ShowField=\"${showfield}\" DisplayName=\"${name}\" StaticName=\"${name}\" Required=\"True\" />",
+		"description": "",
+		"scope": ""
+	},
+	"Create multiline text site column": {
+		"prefix": "Create multiline text site column",
+		"body": "<Field Group=\"${group}\" Type=\"Note\" DisplayName=\"${name}\" Required=\"False\" StaticName=\"${name}\" Name=\"${name}\" />",
+		"description": "",
+		"scope": ""
+	},
+	"Create generic site column": {
+		"prefix": "Create generic site column",
+		"body": "<Field Group=\"${group}\" Type=\"${type:Text}\" DisplayName=\"${name}\" Required=\"False\" StaticName=\"${name}\" Name=\"${name}\" />",
+		"description": "",
+		"scope": ""
+	}
+}

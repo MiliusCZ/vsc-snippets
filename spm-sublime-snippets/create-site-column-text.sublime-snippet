@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[<Field Type="Text" Name="${id:smth}" DisplayName="${id:smth}" MaxLength="$1" />]]></content>
-    <tabTrigger>Create text site column</tabTrigger>
-    <scope></scope>
-</snippet>

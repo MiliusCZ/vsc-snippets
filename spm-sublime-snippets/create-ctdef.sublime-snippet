@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[<CTDef>
+    <ParentCT>${parentname}</ParentCT>
+    <Name>${name}</Name>
+    <Group>${group}</Group>
+    <Description>${description}</Description>
+    <SiteColumnLinks>
+    </SiteColumnLinks>					
+</CTDef>]]></content>
+    <tabTrigger>Create content type definition (in rootweb section)</tabTrigger>
+    <scope></scope>
+</snippet>

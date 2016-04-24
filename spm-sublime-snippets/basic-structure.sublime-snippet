@@ -1,6 +1,20 @@
 <snippet>
-    <content><![CDATA[<?xml version="1.0" encoding="utf-8"?><Data><Configuration><SiteCollectionUrl>${url}</SiteCollectionUrl><DefaultSiteTemplate>STS#0</DefaultSiteTemplate><RootWeb><Url></Url><Name></Name><SiteColumns></SiteColumns><ContentTypes></ContentTypes><Lists></Lists><RootWeb></Configuration></Data>]]></content>
-    <tabTrigger>Create basic structure</tabTrigger>
+    <content><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Data>
+    <SiteCollectionUrl>${url}</SiteCollectionUrl>
+    <DefaultSiteTemplate>STS#0</DefaultSiteTemplate>
+    <RootWeb>
+        <Url></Url>
+        <Name></Name>
+        <SiteColumns>
+        </SiteColumns>
+        <CTDefs>
+        </CTDefs>
+        <Lists>
+        </Lists>
+    </RootWeb>
+</Data>]]></content>
+    <tabTrigger>Create basic configuration xml structure</tabTrigger>
     <scope></scope>
 </snippet>
 

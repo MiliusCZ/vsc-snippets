@@ -1,7 +1,7 @@
 {
-    "name": "spm",
-    "displayName": "spm",
-    "description": "",
+    "name": "spm-snippets",
+    "displayName": "SharePoint Model configuration snippets",
+    "description": "Snippets for generating SharePoint data model configuration XML",
     "version": "0.0.1",
     "publisher": "milius",
     "engines": {

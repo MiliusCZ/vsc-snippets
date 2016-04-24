@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<Field Group="${group}" Type="DateTime" DisplayName="${name}" Required="False" StaticName="${name}" Name="${name}" />]]></content>
+    <tabTrigger>Create datetime site column</tabTrigger>
+    <scope></scope>
+</snippet>

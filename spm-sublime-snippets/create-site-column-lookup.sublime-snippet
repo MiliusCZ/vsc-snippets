@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[<Field Group="${group}" Type="Lookup" Name="${name}" List="${list}" Mult="False" Overwrite="True" ShowField="${showfield}" DisplayName="${name}" StaticName="${name}" Required="True" />]]></content>
+    <tabTrigger>Create lookup column - lookup column can be only added directly to list, never to site columns</tabTrigger>
+    <scope></scope>
+</snippet>
