@@ -1,0 +1,21 @@
+{
+    "name": "spm",
+    "displayName": "spm",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "milius",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

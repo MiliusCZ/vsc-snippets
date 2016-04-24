@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<field Name="${id:smth}" DisplayName="${id:smth}" MaxLength="$1" />]]></content>
+    <tabTrigger>Create site column</tabTrigger>
+    <scope></scope>
+</snippet>
+
